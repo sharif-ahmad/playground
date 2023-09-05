@@ -1,4 +1,4 @@
-package main
+package quick_sort
 
 // Time complexity: O(n * log n)
 // Space complexity: O(n)
