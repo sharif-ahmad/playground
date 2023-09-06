@@ -1,4 +1,4 @@
-package quick_sort
+package quick_select
 
 import (
   "github.com/stretchr/testify/assert"
