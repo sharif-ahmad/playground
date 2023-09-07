@@ -33,7 +33,7 @@ func TestNewHeapFrom(t *testing.T) {
 	h := NewHeapFrom(A, &GTCompareFn[int]{})
 
 	assert.Equal(t, 6, h.Top())
-	assert.Equal(t, []int{6, 5, 4, 5, 2, 1}, h.getArr())
+	assert.Equal(t, []int{6, 5, 4, 2, 5, 1}, h.getArr())
 }
 
 func TestMaxHeap_Insert(t *testing.T) {
